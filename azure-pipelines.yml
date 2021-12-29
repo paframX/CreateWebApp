@@ -20,6 +20,6 @@ steps:
     location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://pipeblob.blob.core.windows.net/pipearm/template.json'
-    overrideParameters: '-projectName TestDBName'
+    overrideParameters:
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
