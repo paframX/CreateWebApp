@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'PipeLine_RG'
     location: 'East US'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/paframX/CreateWebApp/master/Azuredeploy.json'
+    csmFileLink: 'https://pipeblob.blob.core.windows.net/pipearm/template.json'
     overrideParameters: '-projectName TestProject'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
